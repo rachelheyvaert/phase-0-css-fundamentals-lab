@@ -1,5 +1,36 @@
 body {
   width: 100%;
   height: 100%;
-  margin: 0;
+  margin: 0px;
+}
+header {
+  text-align: center;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%
+}
+a {
+  background-color: gray;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#caption {
+  font-size: smaller;
+  text-align: center;
+}
+#featured-property ~ p{
+  text-align: center;
+  width: 800px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.float {
+  float: left;
+  background-color: red;
+  text-align: center;
+  width: 25%;
+  text-align: center;
 }
